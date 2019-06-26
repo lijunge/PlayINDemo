@@ -34,8 +34,8 @@ playIN是一个基于Object-C语言开发的SDK，Demo地址[Demo](https://githu
 下载SDK至本地，Xcode直接打开运行即可。
 
 ## 使用方法
-#### 如果您是公司用户，在客户端接入使用之前，需要到[PlayIn](https://github.com/Coding/WebIDE/blob/master/README-zh.md)官网上根据引导注册账户，上传广告link，快速创建专属游戏试玩，您需保存网站提供的sdkKey及adid并将提供给开发人员。我们也提供了一个使用SDK的[Demo](https://github.com/Coding/WebIDE/blob/master/README-zh.md)供开发人员参考。在业务流程方面，每次试玩之前需要检测是否有机器可供使用，如果有机器，界面上可体现试玩入口供用户试玩点击，如果没有机器可用即检测方法返回NO，则隐藏试玩入口。游戏试玩最大时长受限于注册广告时设置的时长，在项目试玩时，设置的总时长应小于等于网站注册时设置的总时长。
-#### 1 在使用的类中引入PlayIn头文件，并将当前类设置为PlayIn的代理，实现代理回调方法
+如果您是公司用户，在客户端接入使用之前，需要到[PlayIn](https://github.com/Coding/WebIDE/blob/master/README-zh.md)官网上根据引导注册账户，上传广告link，快速创建专属游戏试玩，您需保存网站提供的sdkKey及adid并将提供给开发人员。我们也提供了一个使用SDK的[Demo](https://github.com/Coding/WebIDE/blob/master/README-zh.md)供开发人员参考。在业务流程方面，每次试玩之前需要检测是否有机器可供使用，如果有机器，界面上可体现试玩入口供用户试玩点击，如果没有机器可用即检测方法返回NO，则隐藏试玩入口。游戏试玩最大时长受限于注册广告时设置的时长，在项目试玩时，设置的总时长应小于等于网站注册时设置的总时长。
+### 1 在使用的类中引入PlayIn头文件，并将当前类设置为PlayIn的代理，实现代理回调方法
 ```objc
 #import "ViewController.h"
 #import "PlayIn.h"
@@ -118,7 +118,7 @@ playIN是一个基于Object-C语言开发的SDK，Demo地址[Demo](https://githu
 }
 ```
 ## 合作联系方式
-####如果SDK在使用过程中有任何的意见或建议请发邮件至，，，，我们非常欢迎您的反馈。或者您有意向与我们公司合作，请发邮件。。或浏览我们的官网，注册账户，我们将安排专人为您服务。
+如果SDK在使用过程中有任何的意见或建议请发邮件至，，，，我们非常欢迎您的反馈。或者您有意向与我们公司合作，请发邮件。。或浏览我们的官网，注册账户，我们将安排专人为您服务。
 ## License
 ```
 The MIT License (MIT)
@@ -144,5 +144,4 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
 ### End
-
 
