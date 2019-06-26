@@ -35,7 +35,7 @@ playIN是一个基于Object-C语言开发的SDK，Demo地址[Demo](https://githu
 
 ## 使用方法
 如果您是公司用户，在客户端接入使用之前，需要到[PlayIn](https://github.com/Coding/WebIDE/blob/master/README-zh.md)官网上根据引导注册账户，上传广告link，快速创建专属游戏试玩，您需保存网站提供的sdkKey及adid并将提供给开发人员。我们也提供了一个使用SDK的[Demo](https://github.com/Coding/WebIDE/blob/master/README-zh.md)供开发人员参考。在业务流程方面，每次试玩之前需要检测是否有机器可供使用，如果有机器，界面上可体现试玩入口供用户试玩点击，如果没有机器可用即检测方法返回NO，则隐藏试玩入口。游戏试玩最大时长受限于注册广告时设置的时长，在项目试玩时，设置的总时长应小于等于网站注册时设置的总时长。
-### 1 在使用的类中引入PlayIn头文件，并将当前类设置为PlayIn的代理，实现代理回调方法
+#### 1 在使用的类中引入PlayIn头文件，并将当前类设置为PlayIn的代理，实现代理回调方法
 ```objc
 #import "ViewController.h"
 #import "PlayIn.h"
@@ -63,7 +63,8 @@ playIN是一个基于Object-C语言开发的SDK，Demo地址[Demo](https://githu
     }];
 }
 ```
-#### 3 在有可用机器的前提下，可以进行试玩，为了试玩效果，建议添加一个反转效果。duration为试玩总时长（应小于等于网站注册游戏时所购买的最大时长），单位以秒计时，times为试玩次数，最大试玩次数为2，例： duration = 120，times = 2，则分为两次试玩，单次试玩时间为60s，即单次试玩时间= duration / times，如果为两次试玩，则在第一次试玩结束后，页面会出现提示内容，用户可选择继续试玩或者是至AppStore下载App，在第二次试玩结束后，用户可选择至AppStore下载App或者关闭试玩。
+#### 3 在有可用机器的前提下，可以进行试玩，为了试玩效果，建议添加一个反转效果。
+duration为试玩总时长（应小于等于网站注册游戏时所购买的最大时长），单位以秒计时，times为试玩次数，最大试玩次数为2，例： duration = 120，times = 2，则分为两次试玩，单次试玩时间为60s，即单次试玩时间= duration / times，如果为两次试玩，则在第一次试玩结束后，页面会出现提示内容，用户可选择继续试玩或者是至AppStore下载App，在第二次试玩结束后，用户可选择至AppStore下载App或者关闭试玩。
 ```objc
 - (void)playNowButtonTapped:(UIButton *)sender {
     if (self.isAvailable) {
@@ -143,5 +144,5 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
-### End
+## End
 
