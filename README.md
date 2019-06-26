@@ -5,7 +5,7 @@ README: [English](https://github.com/Coding/WebIDE/blob/master/README.md) | [中
 
 
 ![markdown](https://www.mdeditor.com/images/logos/markdown.png "markdown")
-
+![image](http://github.com/lijunge/PlayINDemo/raw/master/PlayIn_1.gif)
 
 ## 项目介绍
 playIN是一个基于Object-C语言开发的SDK，Demo地址[Demo](https://github.com/Coding/WebIDE/blob/master/README-zh.md)
