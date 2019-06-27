@@ -7,16 +7,14 @@ README: [English](https://github.com/Coding/WebIDE/blob/master/README.md) | [中
 ![image](https://github.com/lijunge/PlayINDemo/raw/master/PlayIn_1.gif) ![image](https://github.com/lijunge/PlayINDemo/raw/master/PlayIn_2.gif)
 
 ## 项目介绍
-playIN是一个基于Object-C语言开发的SDK，Demo地址[Demo](https://github.com/Coding/WebIDE/blob/master/README-zh.md)
+PlayIN Ads是一种新型的试玩广告技术，可以让用户在不安装APP的情况下，直接试玩游戏。云端使用大量真实及虚拟设备，提前安装好需要试玩的游戏。当用户选择试玩时，云端设备的画面视频以“流媒体”的方式传输到用户设备中，当用户操控自己本地设备时，所有操控的信息又被实时传送到云端，并被“作用于”云端设备上。Demo地址[Demo](https://github.com/Coding/WebIDE/blob/master/README-zh.md)
 
 ## 功能特色
-1. *全功能 Web Terminal*
-2. *语法加亮*
-3. *代码补全*
-4. *主题切换*
-5. *分割视图*
-6. *VIM／Emacs 模式*
-7. *实时预览*
+如何将这套技术，更好的打造成一套完整的即决方案，PlayIN在实现时采用了独创性的一些技术核心点：
+1. *优化音视频编解码，优化网络协议，同时组建多数据节点，在保证传输质量的前提下，极大提高了传输速度，降低了数据延时*
+2. *云端设备支持安卓和iOS系统，覆盖几乎所有移动端游戏*
+3. *云端设备真虚结合，不仅解决了海量设备的部署问题，同时也大幅降低了系统成本*
+4. *不仅支持定点试玩，还支持多存档试玩，一个游戏可以创建多个试玩场景，可以让单个游戏得到更多展示，以适应更多不同类型用户*
 
 本项目是为了能够一键启动 `WebIDE` 开源版而创建的，以 git 子模块的形式引用了另外的三个项目，分别是 WebIDE-Frontend、WebIDE-Frontend-Webjars、WebIDE-Backend。
 
