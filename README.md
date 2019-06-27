@@ -1,4 +1,3 @@
-# PlayINDemo
 # PlayIN
 
 README: [English](https://github.com/Coding/WebIDE/blob/master/README.md) | [中文](https://github.com/Coding/WebIDE/blob/master/README-zh.md)
