@@ -20,7 +20,7 @@ playIN是一个基于Object-C语言开发的SDK，Demo地址[Demo](https://githu
 
 本项目是为了能够一键启动 `WebIDE` 开源版而创建的，以 git 子模块的形式引用了另外的三个项目，分别是 WebIDE-Frontend、WebIDE-Frontend-Webjars、WebIDE-Backend。
 
-## Requirements
+## 开发要求
 
 * Xcode10.2 or later
 * iOS 9.0+
